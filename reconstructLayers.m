@@ -8,8 +8,7 @@ global T;
 
 % number of layers
 % 用户参数，定义layers的层数和最大迭代次数。
-% 我不确定layers是指的观察角度还是说指的用来做光场显示的显示器层数。
-% 好像layers是指的用来做光场显示的显示器层数
+% 好像layers层数是指的用来做光场显示的显示器层数
 numLayers                           = 5;
 
 % max iterations for optimization
@@ -43,62 +42,97 @@ load(lightFieldFilename);
 % lightFieldAnglesX
 % lightFieldAnglesY
 % lightFieldOrigin
-% lightFieldResolution=[7,7,7,384,512,3]
-% lightFieldSize=[75,100]
+% lightFieldResolution=[7,7,384,512,3]
+% lightFieldSize=[75,100]，貌似是实体光场显示器的实际尺寸
 
  
 % set layer resolution here
+% 设定每一层的分辨率，这里规定与光场数据每个视角的图片分辨率相等，
+% 也就是384*512的图片大小，而且要有5层。
+% 注意matlab表现矩阵是先行后列，而从图像显示来说，行描述的是y轴方向，列描述的是x轴方向
 layerResolution = [lightFieldResolution(3) lightFieldResolution(4) numLayers];
 
 % layer size is size of light field
+% 【尚不明确】
 layerSize       = lightFieldSize; 
 
 % distance between layers
+% 每两层显示器的之间距离，第一块与最后一块之间有16.7mm，有5-1=4个间距，
+% 所以每两层之间的间隔是4.1750mm
 layerDistance = 16.7 / (numLayers-1);
 
 % origin of the volume in world space [y x z] [mm] - center in layers
+% 世界空间中的原点位置，单位是mm
+% 【尚不明确】
+% 每层原点的位置是[y=0mm,x=0mm,z=0mm],
+% 深度范围是16.7mm，也就是第一块与最后一块屏之间的距离
+% lightFieldOrigin(3)貌似是只光场中心中z轴原点的位置，是在几块屏幕组成的空间中央。
 layerOrigin         = [0 0 0];
 depthRange          = layerDistance * (numLayers-1);                
 lightFieldOrigin(3) = -depthRange/2; 
 
 % minimum transmission of each layer
+% 每一层屏幕的最小透过率，1/1000，感觉是为了避免0值的出现设置的最小量。
 minTransmission = 0.001;
 
 % shift the light field origin to the center of the layers' depth range
+% 【尚不明确】
+% 一个逻辑变量，说明是否把光场的原点放置到深度范围之内
 bLightFieldOriginInLayerCenter      = true;
 
                                    
 % pad layer borders a little bigger
+% 【尚不明确】
+% 貌似是打算扩大一点点每层显示器的边界
 bPadLayerBorders = true;
 if bPadLayerBorders    
     % pixel size of the layers and the light field
+    % 【尚不明确】
+    % lightFieldSize=[75,100]，貌似是实体光场显示器的物理尺寸
+    % [lightFieldResolution(3) lightFieldResolution(4)]=[384,512]
+    % 好像是计算出每个lf像素的大小。
+    % 是两个元素的向量，表示y轴方向的像素大小和x轴方向的像素大小
     lfPixelSize         = lightFieldSize ./ [lightFieldResolution(3) lightFieldResolution(4)];    
 
-    % get maximum angles 
+    % get maximum angles
+    % 最大的光场倾斜视角，应该是说最边上的视点到观察点与中央轴之间的夹角。
     lfMaxAngle          = [ max(abs(lightFieldAnglesY)) max(abs(lightFieldAnglesX)) ];
 
-    % depth range of layers
+    % depth range of layers 
+    % 【尚不明确】
+    % 深度范围=每两层之间的距离*（层数-1），不明确为何要一遍一遍定义
+    % 如果光场的原点位于各层显示器之内，就把深度范围变成一半，大约是说+-的意思。
     depthRange          = layerDistance * (numLayers-1);
     if bLightFieldOriginInLayerCenter
         depthRange      = depthRange / 2;
     end
 
-    % number of pixels to add on each side of the layers
+    % number of pixels to add on each side of the layers       
+    % 【尚不明确】
+    % 可能是为了计算出周边的边框之类
+    % 边缘增加的像素数量，=最大视角*深度范围/像素宽度，最大视角大约是近似=tan，
+    % 所以相当于最远或者最近处的边缘通过深度范围以后增加了多少个像素
     numAddPixels        = ceil( lfMaxAngle.*depthRange ./ lfPixelSize );   
 
     % size of the clamped regions
+    % 边缘增加的物理宽度
     addedRegionSize     = numAddPixels .* lfPixelSize;    
     % width of the layers [y x] in mm
+    % 每层显示器的实际物理宽度，[y,x]
+    % [y=75+2*边框y，x=100+2*边框x]
     layerSize   = [lightFieldSize(1)+2*addedRegionSize(1) lightFieldSize(2)+2*addedRegionSize(2)];    
     % origin of the volume in world space [y x z] [mm]
+    % 【尚不明确】
     layerOrigin = [lightFieldOrigin(1)-addedRegionSize(1) lightFieldOrigin(2)-addedRegionSize(2) 0];
     % adjust resolution
+    % 根据边框增加后的像素数量，增加到新的像素数
+    % 
     layerResolution = [lightFieldResolution(3)+2*numAddPixels(1) lightFieldResolution(4)+2*numAddPixels(2) numLayers];
 end
             
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                   
-            
+% 判断是否是彩色图像，需要有几个颜色通道。            
 numColorChannels = 1;
 if numel(lightFieldResolution) > 4
     numColorChannels = lightFieldResolution(5);
@@ -107,13 +141,22 @@ end
                                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % pre-compute sparse propagation matrix
-                
+% 预先计算“稀疏传输矩阵”                
 basisFunctionType = 0;
 
 % single channel light field resolution
+% 这是单独一个颜色通道的计算
+% lfResolution=[7,7,384,512]
 lfResolution = [lightFieldResolution(1) lightFieldResolution(2) lightFieldResolution(3) lightFieldResolution(4)];
 
 % compute the sparse propagation matrix - this will internally generate and populate the global variable T
+% 调用了子程序
+% 传入的参数有
+% lightFieldAnglesY, lightFieldAnglesX, 各个视角的参数
+% lightFieldSize光场显示区的物理尺寸，lfResolution[7,7,384,512], lightFieldOrigin,...
+% layerResolution带边框显示器的像素分辨率, layerSize物理尺寸, layerOrigin, layerDistance, ...
+% basisFunctionType=0, 1 =drawMode 1 show progress bar
+                                        
 precomputeSparsePropagationMatrixLayers3D(  lightFieldAnglesY, lightFieldAnglesX, lightFieldSize, lfResolution, lightFieldOrigin,...
                                             layerResolution, layerSize, layerOrigin, layerDistance, ...
                                             basisFunctionType, 1 );

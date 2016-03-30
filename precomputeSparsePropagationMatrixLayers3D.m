@@ -44,7 +44,17 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
     % 用全局变量传T，大约是用来存储光场的。
     % 但是不知道全局变量是否方便使用GPU运算呢
     global T;
+    % 先跳跃到函数末尾获得剧透，返回的是全局变量T，是一个稀疏矩阵。
+    % 复习一下稀疏矩阵的定义方法：
+    % T=sparse(行位置，列位置，取值，总行数，总列数）
+    % T = sparse(indexIVector,
+    %            indexJVector,
+    %            valueSVector,
+    %            prod(lightFieldResolution),
+    %            prod(layerResolution));
 
+    
+    
     % if large scale mode, momory will be saved by cycling through entire
     % loop and just computing the number of non-zero elements in the
     % matrix, then it'll allocate the memory and fill the matrix

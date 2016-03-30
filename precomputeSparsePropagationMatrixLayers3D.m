@@ -413,7 +413,7 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                     validYIndices = repmat(validYIndices', [1 size(validXIndices,2)]);
                     % angle indices                    
                     validVXIndices = vxIdx + zeros(size(validXIndices));
-                    validVYIndices = vyIdx + zeros(size(validXIndices));
+                    validVYIndices = vyIdx + zeros(size(validYIndices));
 
                     % convert 4D subscipts to matrix indices
                     matrixRows = sub2ind(lightFieldResolution, validVYIndices(:), validVXIndices(:), validYIndices(:), validXIndices(:));

@@ -709,6 +709,9 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
     clear rayPositionsX rayPositionsY matrixRows matrixColumns validXXIndices validYYIndices validZZIndices validVXIndices validVYIndices layerPixelIndicesForRaysX layerPixelIndicesForRaysY lightFieldPixelCentersX lightFieldPixelCentersY;
     
     % construct the sparse matrix and add all non-zeros entries
+    % 此处才是关键，返回的T是如何构建的。
+    % 以后看函数先看末尾。
+    % 但看人写这么大的函数，真是难过
 	T = sparse(indexIVector,indexJVector,valueSVector,prod(lightFieldResolution),prod(layerResolution));
 	clear indexIVector indexJVector valueSVector;
     

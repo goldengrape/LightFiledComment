@@ -1,15 +1,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Given a bunch of parameters, compute the sparse propagation matrix for
 %   N 1D attenuation layers in log-space given a desired 4D light field
-%
+%   给一堆参数，给定4D光场，为N个一维液晶层计算稀疏传播矩阵，使用在log空间上透射模型
 %   input:  drawMode -  0 draw nothing
 %                       1 show progress bar
 %                       2 show matrix as it is updated
-%
+%   input:  drawMode -  0 啥也不画
+%                       1 画个进度条
+%                       2 更新时显示矩阵
+%                 
 %           basisFunctionType - 0 discrete light field ray positions and angles
 %                               1 discrete light field ray positions, box
 %                               area integration in angle
 %                               2 box area integration around position and angle
+%                               3 discrete light field ray positions, linear area integration in angle
+%           basisFunctionType - 0 离散光场线的位置和角度
+%                               1 离散光场线位置，（box面积对角度积分）？？
+%                               2 box面积积分对位置和面积？？
 %                               3 discrete light field ray positions, linear area integration in angle
 %
 %   Gordon Wetzstein [wetzste1@cs.ubc.ca]
@@ -34,25 +41,39 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                                                     basisFunctionType, drawMode )
 
     % matrix is a global variable
+    % 用全局变量传T，大约是用来存储光场的。
+    % 但是不知道全局变量是否方便使用GPU运算呢
     global T;
 
     % if large scale mode, momory will be saved by cycling through entire
     % loop and just computing the number of non-zero elements in the
     % matrix, then it'll allocate the memory and fill the matrix
+    % 如果是大规模的问题，只计算非零元素。就是用稀疏矩阵的意思吧。
     bLargeScale = true;
                                                     
+    % 限制一下函数参数的输入。
     if (basisFunctionType<0) || (basisFunctionType>3)
         error(['Basis function type ' num2str(basisFunctionType) ' currently not supported!']);
     end
                                                                   
     % absolute x coordinates for light field pixel centers
+    % 确定物理坐标。
+    % lightFieldPixelSize就是每个像素的实际物理大小
+    % lightFieldPixelCentersX是每个像素的物理x坐标，但只使用的一维向量存储了一行
     lightFieldPixelSize     = lightFieldSize ./ [lightFieldResolution(3) lightFieldResolution(4)];
-    lightFieldPixelCentersX = lightFieldOrigin(2)+lightFieldPixelSize(2)/2:lightFieldPixelSize(2):lightFieldOrigin(2)+lightFieldSize(2)-lightFieldPixelSize(2)/2;
-    lightFieldPixelCentersY = lightFieldOrigin(1)+lightFieldPixelSize(1)/2:lightFieldPixelSize(1):lightFieldOrigin(1)+lightFieldSize(1)-lightFieldPixelSize(1)/2;         
+    lightFieldPixelCentersX = lightFieldOrigin(2)+...
+        lightFieldPixelSize(2)/2:lightFieldPixelSize(2):lightFieldOrigin(2)+...
+        lightFieldSize(2)-lightFieldPixelSize(2)/2;
+    % lightFieldPixelCentersY是每个像素的物理y坐标
+    lightFieldPixelCentersY = lightFieldOrigin(1)+...
+        lightFieldPixelSize(1)/2:lightFieldPixelSize(1):lightFieldOrigin(1)+...
+        lightFieldSize(1)-lightFieldPixelSize(1)/2;         
         
     % assuming that the angles are sampled at equal distances, get that
     % distance
+    % 假设角度按照等距来取
     lightFieldAngleStep = [0 0];
+    % lightFieldAngleStep就是角度变化的步长
     if lightFieldResolution(1)>1
         lightFieldAngleStep(1) = lightFieldAnglesY(2)-lightFieldAnglesY(1);
     end
@@ -60,32 +81,38 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
         lightFieldAngleStep(2) = lightFieldAnglesX(2)-lightFieldAnglesX(1);
     end    
     
+    % 画进度条
     if drawMode == 1
         h               = waitbar(0,'Generating propagation matrix ...');
         numWaitbarCalls = lightFieldResolution(1)*lightFieldResolution(2);
     end 
     
     % scale to be applied to the float-positions to get a basis function index
+    % 【尚不明确】
     lookupScaleY = (layerResolution(1))/layerSize(1);
     lookupScaleX = (layerResolution(2))/layerSize(2);
     
     % if basisFunctionType == 2 (area integration), the integrated area for
     % each spatial sample will have this size)
+    % 积分区域的面积=每个光场物理像素大小
     areaIntegrationSize = lightFieldPixelSize;
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % cycle through the entire proceduce once to see how many non-zero
     % elements there are in the matrix        
-    
+    % 目的【尚不明确】
+    % 先跑一边循环吧非零元素统计一遍？
     numNonzeroElements = 0;
     if bLargeScale
         
         % need to run through this twice
+        % 这句给进度条的，说是一共要跑两边
         numWaitbarCalls = 2*lightFieldResolution(1)*lightFieldResolution(2);
         
         % for all angles in the light field
-        for vyIdx=1:lightFieldResolution(1)
+        % 用循环逐个点搜索光场像素
+        for vyIdx=1:lightFieldResolution(1) % Idx就是索引号了，也就是矩阵坐标吧
             for vxIdx=1:lightFieldResolution(2)     
 
                 % update waitbar
@@ -94,6 +121,7 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                 end
 
                 % actual angle in v units
+                % 
                 vy = lightFieldAnglesY(vyIdx);
                 vx = lightFieldAnglesX(vxIdx);
 
@@ -101,6 +129,7 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                 if (basisFunctionType == 1) || (basisFunctionType == 2)
                     
                     % lower boundary of angular box
+                    % 把每个像素当做一个方块盒子，分别算x,y的上下边界
                     vy = lightFieldAnglesY(vyIdx) - lightFieldAngleStep(1)/2;
                     vx = lightFieldAnglesX(vxIdx) - lightFieldAngleStep(2)/2;
 
@@ -122,6 +151,7 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                 end
 
                 % shift light field pixels to pixel centers of 1st volume slice
+                % 算出光场线的物理坐标
                 rayPositionsX = lightFieldPixelCentersX - lightFieldOrigin(3)*vx + layerOrigin(3)*vx;
                 rayPositionsY = lightFieldPixelCentersY - lightFieldOrigin(3)*vy + layerOrigin(3)*vy;  
 
@@ -144,11 +174,13 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
                     % set values in propagation matrix            
                     if basisFunctionType == 0       % nearest interpolation
                                                
-                        % get currently effected layer pixels - matrix column indices                       
+                        % get currently effected layer pixels - matrix column indices 
+                        % 获得光线穿过当前层显示器索引坐标
                         layerPixelIndicesForRaysX = ceil(lookupScaleX .* (rayPositionsX-layerOrigin(2)));                        
                         layerPixelIndicesForRaysY = ceil(lookupScaleY .* (rayPositionsY-layerOrigin(1)));
                                                                
                         % kick out stuff that's outside
+                        % 光线落在边界之外的时候=0
                         layerPixelIndicesForRaysX(layerPixelIndicesForRaysX>layerResolution(2)) = 0;
                         layerPixelIndicesForRaysX(layerPixelIndicesForRaysX<1) = 0;
                         layerPixelIndicesForRaysY(layerPixelIndicesForRaysY>layerResolution(1)) = 0;

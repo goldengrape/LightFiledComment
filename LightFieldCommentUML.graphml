@@ -19,10 +19,10 @@
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="192.0" width="167.0" x="1636.5" y="3036.810546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="192.0" width="167.0" x="207.0" y="2824.3056551908203"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="55.7080078125" x="55.64599609375" y="-23.310546875">Globe T</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="55.7080078125" x="55.64599609375" y="3.0">Globe T</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>T = sparse(
 indexIVector,
@@ -44,10 +44,10 @@ prod(layerResolution)); </y:AttributeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1416.5" y="2803.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="207.0" y="2641.9951083158203"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="88.08740234375" x="39.456298828125" y="-23.310546875">indexIVector</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="88.08740234375" x="39.456298828125" y="3.0">indexIVector</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>cat(1, 
 indexIVector, 
@@ -66,10 +66,10 @@ matrixRows
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1856.5" y="2803.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="10.0" y="2641.9951083158203"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="90.2646484375" x="38.36767578125" y="-23.310546875">valueSVector</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="90.2646484375" x="38.36767578125" y="3.0">valueSVector</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>valueSVector = cat(1, 
 valueSVector, 
@@ -87,10 +87,10 @@ ones(size(matrixRows)));
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="192.0" width="138.5" x="1870.75" y="2256.810546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="192.0" width="138.5" x="184.5" y="2396.2677870478346"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="83.17431640625" x="0.0" y="173.10622751798564">matrixRows<y:LabelModel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="83.17431640625" x="27.662841796875" y="3.0">matrixRows<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -120,10 +120,10 @@ sub2ind(
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1636.5" y="2803.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="404.0" y="2641.9951083158203"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="89.21728515625" x="38.891357421875" y="-23.310546875">indexJVector</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="89.21728515625" x="38.891357421875" y="3.0">indexJVector</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>cat(1, 
 indexJVector, 
@@ -142,10 +142,10 @@ matrixColumns
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="220.0" x="1610.0" y="2543.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="220.0" x="377.5" y="2422.7677870478346"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="106.1591796875" x="0.0" y="120.10622751798564">matrixColumns<y:LabelModel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="106.1591796875" x="56.92041015625" y="3.0">matrixColumns<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -153,9 +153,16 @@ matrixColumns
             </y:ModelParameter>
           </y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel/>
+            <y:AttributeLabel>matrixColumns   = 
+sub2ind(
+layerResolution, 
+validYYIndices(:), 
+validXXIndices(:), 
+validZZIndices(:)); 
+</y:AttributeLabel>
             <y:MethodLabel>尚未明确
-</y:MethodLabel>
+validYYIndices
+YY,XX,ZZ不知道是什么含义</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -165,8 +172,8 @@ matrixColumns
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1416.5" y="23.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="469.875" y="23.310546875"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="138.3291015625" x="14.33544921875" y="-23.310546875">lightFieldResolution</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
@@ -186,10 +193,10 @@ RGB颜色3</y:MethodLabel>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="2416.5" y="1783.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="15.0" y="2021.1902358313005"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.92431640625" x="37.037841796875" y="-23.310546875">validYIndices</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.92431640625" x="37.037841796875" y="3.0">validYIndices</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel/>
             <y:MethodLabel>尚未明确</y:MethodLabel>
@@ -202,10 +209,10 @@ RGB颜色3</y:MethodLabel>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1856.5" y="2023.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="556.3126984126984" y="2217.2677870478346"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="101.75390625" x="32.623046875" y="-23.310546875">validVXIndices</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="101.75390625" x="32.623046875" y="3.0">validVXIndices</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>vxIdx + 
 zeros(size(validXIndices))</y:AttributeLabel>
@@ -219,10 +226,10 @@ zeros(size(validXIndices))</y:AttributeLabel>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="2196.5" y="2023.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="170.25" y="2217.2677870478346"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="102.0078125" x="32.49609375" y="-23.310546875">validVYIndices</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="102.0078125" x="32.49609375" y="3.0">validVYIndices</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>vyIdx + 
 zeros(size(validYIndices));
@@ -237,10 +244,10 @@ zeros(size(validYIndices));
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="166.534008683068" width="197.0" x="1061.5" y="1749.543542533466"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="166.534008683068" width="197.0" x="450.3126984126984" y="2007.4232314897665"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.67041015625" x="52.164794921875" y="-23.310546875">validXIndices</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.67041015625" x="52.164794921875" y="3.0">validXIndices</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>validXIndices =
 find(layerPixelIndicesForRaysX);
@@ -248,7 +255,9 @@ find(layerPixelIndicesForRaysX);
 validXIndices =repmat(
 validXIndices, 
 [numel(validYIndices) 1]);</y:AttributeLabel>
-            <y:MethodLabel>尚未明确</y:MethodLabel>
+            <y:MethodLabel>用find函数达成稀疏矩阵表示,
+layerPixelIndicsForRayX
+的稀疏表示</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -258,10 +267,10 @@ validXIndices,
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1976.5" y="1783.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="212.0" y="2021.1902358313005"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="39.89599609375" x="63.552001953125" y="-23.310546875">vyIdx</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="39.89599609375" x="63.552001953125" y="3.0">vyIdx</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>vxIdx=
 1:lightFieldResolution(1)</y:AttributeLabel>
@@ -276,8 +285,8 @@ validXIndices,
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1856.5" y="763.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="807.125" y="258.24511316389794"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="39.99755859375" x="63.501220703125" y="-23.310546875">vxIdx</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
@@ -294,10 +303,10 @@ validXIndices,
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="289.39550197677" x="1015.302249011615" y="1503.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="289.39550197677" x="420.1149474243134" y="1814.1126846147663"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="178.1669921875" x="55.614254894634996" y="-23.310546875">layerPixelIndicesForRaysX</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="178.1669921875" x="55.614254894634996" y="3.0">layerPixelIndicesForRaysX</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>layerPixelIndicesForRaysX = 
 ceil(
@@ -306,7 +315,10 @@ lookupScaleX .*
 layerOrigin(2)
 ));                        
 </y:AttributeLabel>
-            <y:MethodLabel>尚未明确</y:MethodLabel>
+            <y:MethodLabel>光场线穿过屏幕的像素的索引位置坐标
+光场线到屏幕原点之间的物理距离, 乘以
+单位距离内有多少个像素
+% 这段写得真傻</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -316,17 +328,18 @@ layerOrigin(2)
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="256.5" y="1043.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="163.0" width="167.0" x="662.3126984126984" y="1515.8021377397663"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.71484375" x="37.142578125" y="-23.310546875">lookupScaleX</y:NodeLabel>
-          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="92.71484375" x="37.142578125" y="3.0">lookupScaleX</y:NodeLabel>
+          <y:UML clipContent="false" constraint="5.12" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>lookupScaleX =
 (layerResolution(2))/
 layerSize(2);
 </y:AttributeLabel>
             <y:MethodLabel>每层液晶单位距离内的
-像素数量</y:MethodLabel>
+像素数量
+并不严格需要是整数</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -336,17 +349,33 @@ layerSize(2);
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1076.5" y="1263.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="349.0" width="232.0" x="292.5626984126984" y="1422.8021377397663"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="95.3427734375" x="35.82861328125" y="-23.310546875">rayPositionsX</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="95.3427734375" x="68.32861328125" y="3.0">rayPositionsX</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>rayPositionsX = 
 lightFieldPixelCentersX - 
 lightFieldOrigin(3)*vx + 
 layerOrigin(3)*vx;
+
+之后又再更新
+rayPositionsX = rayPositionsX - layerDistance*vx;
 </y:AttributeLabel>
-            <y:MethodLabel>尚未明确</y:MethodLabel>
+            <y:MethodLabel>光场像素的中心点坐标,
+先平移回光场物理世界坐标,
+平移的距离=光场原点z坐标*角度的tan
+也就是lightFieldOrigin(3)*vx
+再平移到每层显示器的坐标系
+
+! 
+所以这个关键是照相机设定的情况是
+按照相机指向z轴方式,
+完全不是相机指向拍摄点的
+
+再次更新的时候移动了
+屏幕层间距离*vx的距离
+也就是到了下一张屏幕</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -356,10 +385,10 @@ layerOrigin(3)*vx;
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="145.8436390143654" width="167.0" x="1296.5" y="999.8887273678174"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="145.8436390143654" width="167.0" x="423.5626984126984" y="1152.3796359640983"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="79.15625" x="43.921875" y="-23.310546875">layerOrigin</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="79.15625" x="43.921875" y="3.0">layerOrigin</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>[lightFieldOrigin(1)-
 addedRegionSize(1),
@@ -367,7 +396,7 @@ lightFieldOrigin(2)-
 addedRegionSize(2) 
 0];
 </y:AttributeLabel>
-            <y:MethodLabel>每层液晶的中心的物理位置
+            <y:MethodLabel>每层液晶的原点的物理位置
 [y,x,z]</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
@@ -378,8 +407,8 @@ addedRegionSize(2)
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="36.5" y="803.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="1004.125" y="258.24511316389794"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="108.3173828125" x="29.34130859375" y="-23.310546875">layerResolution</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
@@ -399,10 +428,10 @@ numLayers];
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="182.19221703758205" width="167.0" x="256.5" y="761.714438356209"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="182.19221703758205" width="167.0" x="620.5626984126984" y="1134.2053469524901"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="63.92822265625" x="51.535888671875" y="-23.310546875">layerSize</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="63.92822265625" x="51.535888671875" y="3.0">layerSize</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>    layerSize   = 
 [lightFieldSize(1)+
@@ -423,17 +452,19 @@ lightFieldSize(2)+
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="956.5" y="523.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="150.0" width="167.0" x="326.1460317460317" y="877.8007732027959"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="109.16796875" x="28.916015625" y="-23.310546875">lightFieldOrigin</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="109.16796875" x="28.916015625" y="3.0">lightFieldOrigin</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>lightFieldOrigin(3) = 
 -depthRange/2; 
 </y:AttributeLabel>
             <y:MethodLabel>[0,0,-depthRange/2]
-光场的物理世界中心
-[y,x,z]</y:MethodLabel>
+光场的物理世界原点
+[y,x,z]
+原点不是光场显示器的中心
+是y,x的起点</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -443,24 +474,8 @@ lightFieldSize(2)+
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="836.5" y="763.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="118.283203125" x="24.3583984375" y="-23.310546875">addedRegionSize</y:NodeLabel>
-          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel/>
-            <y:MethodLabel>尚不明确</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n21">
-      <data key="d4"/>
-      <data key="d5"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="376.5" y="283.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="371.375" y="463.1796794527959"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="93.93994140625" x="36.530029296875" y="-23.310546875">lightFieldSize</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
@@ -471,18 +486,51 @@ lightFieldSize(2)+
         </y:UMLClassNode>
       </data>
     </node>
+    <node id="n21">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="620.5626984126984" y="883.3007732027959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="118.283203125" x="24.3583984375" y="3.0">addedRegionSize</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>numAddPixels .* 
+lfPixelSize;    
+</y:AttributeLabel>
+            <y:MethodLabel>边缘增加的物理宽度</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
     <node id="n22">
       <data key="d4"/>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="256.5" y="523.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="288.3802707869703" width="187.875" x="205.6875" y="1081.1113200777959"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="118.283203125" x="24.3583984375" y="-23.310546875">addedRegionSize</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="158.9462890625" x="14.46435546875" y="3.0">lightFieldPixelCentersX</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel/>
-            <y:MethodLabel>尚不明确</y:MethodLabel>
+            <y:AttributeLabel>lightFieldOrigin(2)+...
+lightFieldPixelSize(2)/2:
+
+lightFieldPixelSize(2):
+
+lightFieldOrigin(2)+...
+lightFieldSize(2)-
+lightFieldPixelSize(2)/2;</y:AttributeLabel>
+            <y:MethodLabel>从lightFieldOrigin+半个像素开始
+以lightFieldPixelSize为步长
+到lightFieldOrigin(2)+...
+lightFieldSize(2)-
+lightFieldPixelSize(2)/2;为止
+也就是从lf的近原点开始走到边界
+每个像素中心的物理坐标
+
+一共是512点</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -492,23 +540,14 @@ lightFieldSize(2)+
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="228.3802707869703" width="187.875" x="606.0625" y="758.620411481515"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="765.375" y="463.1796794527959"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="158.9462890625" x="14.46435546875" y="-23.310546875">lightFieldPixelCentersX</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="19.39306640625" x="73.803466796875" y="-23.310546875">vx</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel>lightFieldOrigin(2)+...
-
-lightFieldPixelSize(2)/2:
-lightFieldPixelSize(2):
-lightFieldOrigin(2)+...
-
-lightFieldSize(2)-
-lightFieldPixelSize(2)/2;</y:AttributeLabel>
-            <y:MethodLabel>从lightFieldPixelSize一半开始
-lightFieldPixelSize为步长
-到lightFieldOrigin
-</y:MethodLabel>
+            <y:AttributeLabel>vx = 
+lightFieldAnglesX(vxIdx);</y:AttributeLabel>
+            <y:MethodLabel>每个view的视角的tan</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -518,25 +557,8 @@ lightFieldPixelSize为步长
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="1636.5" y="1003.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="19.39306640625" x="73.803466796875" y="-23.310546875">vx</y:NodeLabel>
-          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
-            <y:AttributeLabel>vx = 
-lightFieldAnglesX(vxIdx);</y:AttributeLabel>
-            <y:MethodLabel>尚不明确</y:MethodLabel>
-          </y:UML>
-        </y:UMLClassNode>
-      </data>
-    </node>
-    <node id="n25">
-      <data key="d4"/>
-      <data key="d5"/>
-      <data key="d6">
-        <y:UMLClassNode>
-          <y:Geometry height="184.24803882779582" width="167.0" x="1416.5" y="720.6865274611023"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="184.24803882779582" width="167.0" x="610.125" y="235.62109375000003"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="121.53955078125" x="22.730224609375" y="-23.310546875">lightFieldAnglesX</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
@@ -554,15 +576,15 @@ maxAngle;
         </y:UMLClassNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n25">
       <data key="d4"/>
       <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="139.0" width="167.0" x="616.5" y="523.310546875"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Geometry height="139.0" width="167.0" x="55.0" y="675.4902263277959"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="125.66552734375" x="20.667236328125" y="-23.310546875">lightFieldPixelSize</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="125.66552734375" x="20.667236328125" y="3.0">lightFieldPixelSize</y:NodeLabel>
           <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel>lightFieldSize ./ 
 [lightFieldResolution(3),
@@ -573,14 +595,214 @@ maxAngle;
         </y:UMLClassNode>
       </data>
     </node>
+    <node id="n26">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="720.1460317460318" y="675.4902263277959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="99.5576171875" x="33.72119140625" y="3.0">numAddPixels</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>ceil( 
+lfMaxAngle.*
+depthRange ./ 
+lfPixelSize );   
+</y:AttributeLabel>
+            <y:MethodLabel>最大视角*深度范围/像素宽度</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="523.1460317460318" y="675.4902263277959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="72.29443359375" x="47.352783203125" y="3.0">lfPixelSize</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>lightFieldSize ./ 
+[lightFieldResolution(3),
+ lightFieldResolution(4)];    
+</y:AttributeLabel>
+            <y:MethodLabel>每个lf像素的大小</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="568.375" y="463.1796794527959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="79.2705078125" x="43.86474609375" y="-23.310546875">lfMaxAngle</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>[ max(abs(
+lightFieldAnglesY)) ,
+max(abs(
+lightFieldAnglesX)) ];
+</y:AttributeLabel>
+            <y:MethodLabel>最大视角</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="210.25" y="258.24511316389794"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="77.3408203125" x="44.82958984375" y="-23.310546875">numLayers</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>5</y:AttributeLabel>
+            <y:MethodLabel>液晶显示器层数</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="168.5" y="463.1796794527959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="94.84765625" x="36.076171875" y="-23.310546875">layerDistance</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>16.7 / (numLayers-1);
+</y:AttributeLabel>
+            <y:MethodLabel>液晶显示器层间距离</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="252.0" y="675.4902263277959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="83.9931640625" x="41.50341796875" y="3.0">depthRange</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>depthRange          
+= 
+layerDistance * 
+(numLayers-1);                
+
+</y:AttributeLabel>
+            <y:MethodLabel>液晶显示器层间总深度</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n32">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="139.0" width="167.0" x="1217.0" y="23.310546875"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="134.4443359375" x="16.27783203125" y="-23.310546875">lightFieldAngleStep</y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>lightFieldAnglesX(2)-lightFieldAnglesX(1)</y:AttributeLabel>
+            <y:MethodLabel>角度变化的步长</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n33">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="163.0" width="167.0" x="55.0" y="871.3007732027959"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="sandwich" modelPosition="n" textColor="#000000" visible="true" width="133.9619140625" x="16.51904296875" y="3.0">areaIntegrationSize</y:NodeLabel>
+          <y:UML clipContent="false" constraint="0.1953, 0.1953" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>lightFieldPixelSize
+</y:AttributeLabel>
+            <y:MethodLabel>某种积分面积的尺寸</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n34">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="208.0" width="220.0" x="786.7916063675832" y="2439.2677870478346"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="101.34130859375" x="59.329345703125" y="3.0">validXXIndices<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4784172661870504" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>                    
+validXXIndices =
+ repmat(
+layerPixelIndicesForRaysX,
+ [numel(layerPixelIndicesForRaysY) 1])
+;
+</y:AttributeLabel>
+            <y:MethodLabel>尚未明确
+validXXIndices
+YY,XX,ZZ不知道是什么含义</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n35">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="208.0" width="220.0" x="781.5832127351664" y="2654.5355740956693"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.310546875" modelName="custom" textColor="#000000" visible="true" width="101.84912109375" x="59.075439453125" y="3.0">validYYIndices<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.4784172661870504" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="false" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>validYYIndices = 
+repmat(layerPixelIndicesForRaysY', 
+[1 size(layerPixelIndicesForRaysX,2)]);                    
+</y:AttributeLabel>
+            <y:MethodLabel>尚未明确
+validYYIndices
+YY,XX,ZZ不知道是什么含义</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
     <edge id="e0" source="n1" target="n0">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-96.0">
-            <y:Point x="1500.0" y="2972.810546875"/>
-            <y:Point x="1700.0" y="2972.810546875"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-96.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -591,9 +813,9 @@ maxAngle;
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="20.0" ty="-96.0">
-            <y:Point x="1940.0" y="2972.810546875"/>
-            <y:Point x="1740.0" y="2972.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="-55.66666666666667" ty="-96.0">
+            <y:Point x="93.5" y="2790.9951083158203"/>
+            <y:Point x="234.83333333333331" y="2790.9951083158203"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -605,9 +827,9 @@ maxAngle;
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="96.0" tx="0.0" ty="-69.5">
-            <y:Point x="1920.0" y="2492.810546875"/>
-            <y:Point x="1500.0" y="2492.810546875"/>
+          <y:Path sx="34.625" sy="96.0" tx="0.0" ty="-69.5">
+            <y:Point x="288.375" y="2598.2677870478346"/>
+            <y:Point x="290.5" y="2598.2677870478346"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -615,22 +837,28 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n4" target="n0">
+    <edge id="e3" source="n3" target="n2">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-96.0"/>
+          <y:Path sx="-34.625" sy="96.0" tx="0.0" ty="-69.5">
+            <y:Point x="219.125" y="2598.6845614408203"/>
+            <y:Point x="93.5" y="2598.6845614408203"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n3" target="n2">
+    <edge id="e4" source="n4" target="n0">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="96.0" tx="0.0" ty="-69.5"/>
+          <y:Path sx="0.0" sy="69.5" tx="55.666666666666686" ty="-96.0">
+            <y:Point x="487.5" y="2790.9951083158203"/>
+            <y:Point x="346.1666666666667" y="2790.9951083158203"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -652,11 +880,11 @@ maxAngle;
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-60.0" sy="69.5" tx="-40.0" ty="-96.0">
-            <y:Point x="1440.0" y="192.810546875"/>
-            <y:Point x="0.0" y="192.810546875"/>
-            <y:Point x="0.0" y="2212.810546875"/>
-            <y:Point x="1900.0" y="2212.810546875"/>
+          <y:Path sx="-71.57142857142856" sy="69.5" tx="-55.400000000000006" ty="-96.0">
+            <y:Point x="481.80357142857144" y="172.310546875"/>
+            <y:Point x="0.0" y="172.310546875"/>
+            <y:Point x="0.0" y="2376.2677870478346"/>
+            <y:Point x="198.35" y="2376.2677870478346"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -664,13 +892,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n7" target="n3">
+    <edge id="e7" source="n6" target="n12">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="40.0" ty="-96.0">
-            <y:Point x="2500.0" y="2212.810546875"/>
-            <y:Point x="1980.0" y="2212.810546875"/>
+          <y:Path sx="47.714285714285715" sy="69.5" tx="0.0" ty="-69.5">
+            <y:Point x="601.0892857142857" y="182.310546875"/>
+            <y:Point x="890.625" y="182.310546875"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -678,7 +906,121 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n8" target="n3">
+    <edge id="e8" source="n6" target="n11">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-47.71428571428572" sy="69.5" tx="0.0" ty="-69.5">
+            <y:Point x="505.6607142857143" y="182.310546875"/>
+            <y:Point x="20.0" y="182.310546875"/>
+            <y:Point x="20.0" y="1904.6126846147663"/>
+            <y:Point x="295.5" y="1904.6126846147663"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n6" target="n17">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="71.57142857142857" sy="69.5" tx="0.0" ty="-69.5">
+            <y:Point x="624.9464285714286" y="172.310546875"/>
+            <y:Point x="1087.625" y="172.310546875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n6" target="n24">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="23.85714285714286" sy="69.5" tx="0.0" ty="-92.12401941389791">
+            <y:Point x="577.2321428571429" y="192.310546875"/>
+            <y:Point x="693.625" y="192.310546875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n6" target="n25">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.85714285714289" sy="69.5" tx="-41.75" ty="-69.5">
+            <y:Point x="529.5178571428571" y="192.310546875"/>
+            <y:Point x="96.75" y="192.310546875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n6" target="n27">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="553.375" y="622.1796794527959"/>
+            <y:Point x="648.3960317460318" y="622.1796794527959"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n7" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-41.75" sy="69.5" tx="-27.69999999999999" ty="-96.0">
+            <y:Point x="56.75" y="2366.2677870478346"/>
+            <y:Point x="226.05" y="2366.2677870478346"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n7" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="41.75" sy="69.5" tx="-41.75" ty="-69.5">
+            <y:Point x="140.25" y="2170.1902358313005"/>
+            <y:Point x="212.0" y="2170.1902358313005"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n8" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="69.5" tx="55.400000000000006" ty="-96.0">
+            <y:Point x="639.8126984126984" y="2376.2677870478346"/>
+            <y:Point x="309.15" y="2376.2677870478346"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n9" target="n3">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -689,13 +1031,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n9" target="n3">
+    <edge id="e17" source="n10" target="n3">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="20.0" ty="-96.0">
-            <y:Point x="2280.0" y="2192.810546875"/>
-            <y:Point x="1960.0" y="2192.810546875"/>
+          <y:Path sx="-49.25" sy="83.26700434153418" tx="27.69999999999999" ty="-96.0">
+            <y:Point x="499.5626984126984" y="2366.2677870478346"/>
+            <y:Point x="281.45" y="2366.2677870478346"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -703,15 +1045,37 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n10" target="n3">
+    <edge id="e18" source="n10" target="n8">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="83.26700434153395" tx="-20.0" ty="-96.0">
-            <y:Point x="1140.0" y="2172.810546875"/>
-            <y:Point x="1020.0" y="2172.810546875"/>
-            <y:Point x="1020.0" y="2192.810546875"/>
-            <y:Point x="1920.0" y="2192.810546875"/>
+          <y:Path sx="49.25" sy="83.267004341534" tx="-41.75" ty="-69.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n11" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="69.5" tx="41.75" ty="-69.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n12" target="n8">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="41.75" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="932.375" y="407.24511316389794"/>
+            <y:Point x="947.375" y="407.24511316389794"/>
+            <y:Point x="947.375" y="2100.6902358313005"/>
+            <y:Point x="681.5626984126984" y="2100.6902358313005"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -719,13 +1083,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e11" source="n11" target="n9">
+    <edge id="e21" source="n12" target="n23">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-69.5">
-            <y:Point x="2060.0" y="1952.810546875"/>
-            <y:Point x="2260.0" y="1952.810546875"/>
+          <y:Path sx="-41.75" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="848.875" y="407.24511316389794"/>
+            <y:Point x="890.625" y="407.24511316389794"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -733,13 +1097,24 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n7" target="n9">
+    <edge id="e22" source="n13" target="n10">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="2480.0" y="1952.810546875"/>
-            <y:Point x="2280.0" y="1952.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-83.267004341534"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n14" target="n13">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="81.5" tx="96.46516732558999" ty="-69.5">
+            <y:Point x="745.8126984126984" y="1688.8021377397663"/>
+            <y:Point x="645.2778657382884" y="1688.8021377397663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -747,24 +1122,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n12" target="n8">
+    <edge id="e24" source="n15" target="n13">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-69.5"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e14" source="n10" target="n8">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="83.26700434153395" tx="-20.0" ty="-69.5">
-            <y:Point x="1160.0" y="1952.810546875"/>
-            <y:Point x="1920.0" y="1952.810546875"/>
+          <y:Path sx="0.0" sy="174.5" tx="-96.46516732558999" ty="-69.5">
+            <y:Point x="408.5626984126984" y="1781.8021377397663"/>
+            <y:Point x="452.34753108710845" y="1781.8021377397663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -772,24 +1136,24 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n13" target="n10">
+    <edge id="e25" source="n16" target="n13">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-83.26700434153418"/>
+          <y:Path sx="41.75" sy="72.92181950718259" tx="0.0" ty="-69.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n6" target="n12">
+    <edge id="e26" source="n16" target="n15">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="20.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="1520.0" y="652.810546875"/>
-            <y:Point x="1940.0" y="652.810546875"/>
+          <y:Path sx="-41.75" sy="72.9218195071827" tx="46.400000000000006" ty="-174.5">
+            <y:Point x="465.3126984126984" y="1308.2232749784637"/>
+            <y:Point x="454.9626984126984" y="1308.2232749784637"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -797,13 +1161,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n6" target="n11">
+    <edge id="e27" source="n17" target="n14">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="40.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="1540.0" y="632.810546875"/>
-            <y:Point x="2060.0" y="632.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="41.75" ty="-81.5">
+            <y:Point x="1087.625" y="1336.3975639900723"/>
+            <y:Point x="787.5626984126984" y="1336.3975639900723"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -811,13 +1175,35 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n14" target="n13">
+    <edge id="e28" source="n18" target="n14">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-69.5">
-            <y:Point x="340.0" y="1432.810546875"/>
-            <y:Point x="1140.0" y="1432.810546875"/>
+          <y:Path sx="0.0" sy="91.09610851879103" tx="-41.75" ty="-81.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n19" target="n16">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="55.66666666666667" sy="75.0" tx="-41.75" ty="-72.9218195071827"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n19" target="n15">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="75.0" tx="0.0" ty="-174.5">
+            <y:Point x="409.6460317460317" y="1037.8007732027959"/>
+            <y:Point x="408.5626984126984" y="1037.8007732027959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -825,26 +1211,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n15" target="n13">
+    <edge id="e31" source="n19" target="n22">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-69.5"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e20" source="n16" target="n13">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="72.92181950718259" tx="20.0" ty="-69.5">
-            <y:Point x="1380.0" y="1172.810546875"/>
-            <y:Point x="1740.0" y="1172.810546875"/>
-            <y:Point x="1740.0" y="1432.810546875"/>
-            <y:Point x="1180.0" y="1432.810546875"/>
+          <y:Path sx="-55.666666666666686" sy="75.0" tx="62.625" ty="-144.19013539348515">
+            <y:Point x="353.97936507936504" y="1037.8007732027959"/>
+            <y:Point x="362.25" y="1037.8007732027959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -852,13 +1225,15 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n17" target="n14">
+    <edge id="e32" source="n20" target="n18">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-69.5">
-            <y:Point x="120.0" y="972.810546875"/>
-            <y:Point x="320.0" y="972.810546875"/>
+          <y:Path sx="20.875" sy="69.5" tx="-41.75" ty="-91.09610851879097">
+            <y:Point x="475.75" y="642.1796794527959"/>
+            <y:Point x="508.1460317460317" y="642.1796794527959"/>
+            <y:Point x="508.1460317460317" y="1042.3007732027959"/>
+            <y:Point x="662.3126984126984" y="1042.3007732027959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -866,24 +1241,15 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n18" target="n14">
+    <edge id="e33" source="n20" target="n22">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="91.09610851879097" tx="0.0" ty="-69.5"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e23" source="n19" target="n16">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="20.0" sy="69.5" tx="0.0" ty="-72.92181950718259">
-            <y:Point x="1060.0" y="912.810546875"/>
-            <y:Point x="1380.0" y="912.810546875"/>
+          <y:Path sx="-20.875" sy="69.5" tx="0.0" ty="-144.1901353934852">
+            <y:Point x="434.0" y="824.4902263277959"/>
+            <y:Point x="311.1460317460317" y="824.4902263277959"/>
+            <y:Point x="311.1460317460317" y="962.8007732027959"/>
+            <y:Point x="299.625" y="962.8007732027959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -891,13 +1257,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n20" target="n16">
+    <edge id="e34" source="n20" target="n25">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-72.92181950718259">
-            <y:Point x="920.0" y="932.810546875"/>
-            <y:Point x="1360.0" y="932.810546875"/>
+          <y:Path sx="-62.625" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="392.25" y="622.1796794527959"/>
+            <y:Point x="180.25" y="622.1796794527959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -905,13 +1271,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n6" target="n17">
+    <edge id="e35" source="n20" target="n27">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-40.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="1460.0" y="212.810546875"/>
-            <y:Point x="120.0" y="212.810546875"/>
+          <y:Path sx="62.625" sy="69.5" tx="-41.75" ty="-69.5">
+            <y:Point x="517.5" y="632.1796794527959"/>
+            <y:Point x="564.8960317460318" y="632.1796794527959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -919,15 +1285,24 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n21" target="n18">
+    <edge id="e36" source="n21" target="n18">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="69.5" tx="-20.0" ty="-91.09610851879097">
-            <y:Point x="440.0" y="452.810546875"/>
-            <y:Point x="220.0" y="452.810546875"/>
-            <y:Point x="220.0" y="692.810546875"/>
-            <y:Point x="320.0" y="692.810546875"/>
+          <y:Path sx="41.75" sy="69.5" tx="41.75" ty="-91.09610851879103"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n21" target="n16">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-41.75" sy="69.5" tx="41.75" ty="-72.9218195071827">
+            <y:Point x="662.3126984126984" y="1032.3007732027959"/>
+            <y:Point x="548.8126984126984" y="1032.3007732027959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -935,24 +1310,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n22" target="n18">
+    <edge id="e38" source="n22" target="n15">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-91.09610851879097"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e28" source="n23" target="n15">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="114.19013539348498" tx="-40.0" ty="-69.5">
-            <y:Point x="700.0" y="1012.810546875"/>
-            <y:Point x="1120.0" y="1012.810546875"/>
+          <y:Path sx="0.0" sy="144.19013539348515" tx="-46.400000000000006" ty="-174.5">
+            <y:Point x="299.625" y="1379.4915908647663"/>
+            <y:Point x="362.16269841269843" y="1379.4915908647663"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -960,13 +1324,15 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n19" target="n15">
+    <edge id="e39" source="n23" target="n15">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-69.5">
-            <y:Point x="1040.0" y="992.810546875"/>
-            <y:Point x="1140.0" y="992.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="92.80000000000001" ty="-174.5">
+            <y:Point x="848.875" y="612.1796794527959"/>
+            <y:Point x="902.1460317460318" y="612.1796794527959"/>
+            <y:Point x="902.1460317460318" y="1326.3975639900723"/>
+            <y:Point x="501.3626984126984" y="1326.3975639900723"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -974,13 +1340,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n16" target="n15">
+    <edge id="e40" source="n24" target="n23">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="72.92181950718259" tx="0.0" ty="-69.5">
-            <y:Point x="1360.0" y="1172.810546875"/>
-            <y:Point x="1160.0" y="1172.810546875"/>
+          <y:Path sx="41.75" sy="92.12401941389791" tx="-41.75" ty="-69.5">
+            <y:Point x="735.375" y="429.8691325777959"/>
+            <y:Point x="807.125" y="429.8691325777959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -988,13 +1354,24 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n24" target="n15">
+    <edge id="e41" source="n24" target="n28">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="20.0" ty="-69.5">
-            <y:Point x="1720.0" y="1192.810546875"/>
-            <y:Point x="1180.0" y="1192.810546875"/>
+          <y:Path sx="-41.75" sy="92.12401941389791" tx="0.0" ty="-69.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n25" target="n22">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="41.75" sy="69.5" tx="-62.625" ty="-144.1901353934852">
+            <y:Point x="180.25" y="824.4902263277959"/>
+            <y:Point x="237.0" y="824.4902263277959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1002,13 +1379,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n12" target="n24">
+    <edge id="e43" source="n26" target="n21">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="1920.0" y="932.810546875"/>
-            <y:Point x="1720.0" y="932.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="803.6460317460318" y="824.4902263277959"/>
+            <y:Point x="745.8126984126984" y="824.4902263277959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1016,13 +1393,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n25" target="n24">
+    <edge id="e44" source="n27" target="n21">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="92.12401941389771" tx="-20.0" ty="-69.5">
-            <y:Point x="1500.0" y="932.810546875"/>
-            <y:Point x="1700.0" y="932.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="-41.75" ty="-69.5">
+            <y:Point x="606.6460317460318" y="824.4902263277959"/>
+            <y:Point x="662.3126984126984" y="824.4902263277959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1030,24 +1407,13 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n6" target="n25">
+    <edge id="e45" source="n28" target="n26">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-92.12401941389817"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e35" source="n19" target="n23">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="69.5" tx="20.0" ty="-114.19013539348543">
-            <y:Point x="1020.0" y="692.810546875"/>
-            <y:Point x="720.0" y="692.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-69.5">
+            <y:Point x="651.875" y="612.1796794527959"/>
+            <y:Point x="803.6460317460318" y="612.1796794527959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1055,13 +1421,26 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n21" target="n23">
+    <edge id="e46" source="n29" target="n30">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="-20.0" ty="-114.19013539348543">
-            <y:Point x="460.0" y="692.810546875"/>
-            <y:Point x="680.0" y="692.810546875"/>
+          <y:Path sx="-41.75" sy="69.5" tx="0.0" ty="-69.5"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e47" source="n29" target="n31">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="41.75" sy="69.5" tx="41.75" ty="-69.5">
+            <y:Point x="335.5" y="407.24511316389794"/>
+            <y:Point x="350.5" y="407.24511316389794"/>
+            <y:Point x="350.5" y="612.1796794527959"/>
+            <y:Point x="377.25" y="612.1796794527959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1069,24 +1448,24 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n26" target="n23">
+    <edge id="e48" source="n30" target="n31">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-114.19013539348543"/>
+          <y:Path sx="41.75" sy="69.5" tx="-41.75" ty="-69.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n21" target="n26">
+    <edge id="e49" source="n31" target="n19">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="20.0" sy="69.5" tx="-20.0" ty="-69.5">
-            <y:Point x="480.0" y="452.810546875"/>
-            <y:Point x="680.0" y="452.810546875"/>
+          <y:Path sx="0.0" sy="69.5" tx="0.0" ty="-75.0">
+            <y:Point x="335.5" y="834.4902263277959"/>
+            <y:Point x="409.6460317460317" y="834.4902263277959"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1094,14 +1473,63 @@ maxAngle;
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n6" target="n26">
+    <edge id="e50" source="n25" target="n33">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-20.0" sy="69.5" tx="0.0" ty="-69.5">
-            <y:Point x="1480.0" y="452.810546875"/>
-            <y:Point x="700.0" y="452.810546875"/>
+          <y:Path sx="-41.75" sy="69.5" tx="0.0" ty="-81.5">
+            <y:Point x="96.75" y="824.4902263277959"/>
+            <y:Point x="138.5" y="824.4902263277959"/>
           </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n30" target="n15">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-41.75" sy="69.5" tx="-92.80000000000001" ty="-174.5">
+            <y:Point x="210.25" y="612.1796794527959"/>
+            <y:Point x="40.0" y="612.1796794527959"/>
+            <y:Point x="40.0" y="1389.4915908647663"/>
+            <y:Point x="315.7626984126984" y="1389.4915908647663"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n34" target="n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n35" target="n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n13" target="n34">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>

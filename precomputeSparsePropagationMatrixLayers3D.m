@@ -71,9 +71,9 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
     % lightFieldPixelSize就是每个像素的实际物理大小
     % lightFieldPixelCentersX是每个像素的物理x坐标，但只使用的一维向量存储了一行
     lightFieldPixelSize     = lightFieldSize ./ [lightFieldResolution(3) lightFieldResolution(4)];
-    lightFieldPixelCentersX = lightFieldOrigin(2)+...
-        lightFieldPixelSize(2)/2:lightFieldPixelSize(2):lightFieldOrigin(2)+...
-        lightFieldSize(2)-lightFieldPixelSize(2)/2;
+    lightFieldPixelCentersX = (lightFieldOrigin(2)+lightFieldPixelSize(2)/2)...
+                           :lightFieldPixelSize(2): ...
+                       (lightFieldOrigin(2)+lightFieldSize(2)-lightFieldPixelSize(2)/2);
     % lightFieldPixelCentersY是每个像素的物理y坐标
     lightFieldPixelCentersY = lightFieldOrigin(1)+...
         lightFieldPixelSize(1)/2:lightFieldPixelSize(1):lightFieldOrigin(1)+...
@@ -312,6 +312,7 @@ function precomputeSparsePropagationMatrixLayers3D( lightFieldAnglesY, lightFiel
     % initialize vectors that will store the non-negative matrix indices and values
     if bLargeScale
         % memory matters - only store datatypes that we actually need
+        % 大规模问题，需要预先开辟内存存储区，但只为非零数据存储，
         indexIVector = zeros([numNonzeroElements 1]);
         indexJVector = zeros([numNonzeroElements 1]);
         valueSVector = zeros([numNonzeroElements 1]);
